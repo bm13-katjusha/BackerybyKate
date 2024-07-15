@@ -1,0 +1,47 @@
+body{
+    background-color: rgba(213, 110, 223, 0.597);
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+header a {
+    text-decoration: none;
+    color: black;
+}
+header div {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    
+}
+header div img {
+    font-size: 10px;
+}
+header div h1 {
+    font-family: "Lemonada", cursive;
+    color: rgb(92, 16, 51);
+    font-size: 30px;
+    
+}
+header ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-family: "Oswald", sans-serif;
+    text-decoration: none;
+    
+}
+header li {
+    border: 2px solid rgba(110, 14, 72, 0.674);
+    border-radius: 20px;
+    background-color: rgba(179, 79, 157, 0.352);
+    padding: 5px;
+    color: rgb(78, 21, 52);
+
+}
+img {
+    border-radius: 50px;
+}
